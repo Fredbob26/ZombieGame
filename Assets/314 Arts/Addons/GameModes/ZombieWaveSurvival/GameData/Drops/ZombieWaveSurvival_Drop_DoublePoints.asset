@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c02e769784c86489cf02e88865b5b0, type: 3}
+  m_Name: ZombieWaveSurvival_Drop_DoublePoints
+  m_EditorClassIdentifier: 
+  dropChance: 2
+  dropLiveTime: 30
+  dropOffset: {x: 0, y: 0.5, z: 0}
+  dropRendererPrefab: {fileID: 7410506550088992347, guid: eda72b7878a7aaa469611d195fe85881,
+    type: 3}
+  dropSound:
+  - {fileID: 8300000, guid: 1a0c775507b69514182726a0406a330c, type: 3}
+  liveTime: 30
+  canExtendExisting: 1
+  doublePointManagerPrefab: {fileID: 8276224945437750241, guid: 623e1c45c21d8284ea316ca44003336b,
+    type: 3}

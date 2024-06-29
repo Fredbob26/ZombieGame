@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 286fcf26fc6150945aef7ee8107e377b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_PersistentViewDataDictionary: {instanceID: 0}
+  - zombieAnimator: {fileID: 9100000, guid: 3c0d9cac1b1c3e7468dc469c86448a0d, type: 2}
+  - anim: {instanceID: 0}
+  - pelvis: {instanceID: 0}
+  - leftHips: {instanceID: 0}
+  - leftKnee: {instanceID: 0}
+  - leftFoot: {instanceID: 0}
+  - rightHips: {instanceID: 0}
+  - rightKnee: {instanceID: 0}
+  - rightFoot: {instanceID: 0}
+  - leftArm: {instanceID: 0}
+  - leftElbow: {instanceID: 0}
+  - rightArm: {instanceID: 0}
+  - rightElbow: {instanceID: 0}
+  - middleSpine: {instanceID: 0}
+  - head: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

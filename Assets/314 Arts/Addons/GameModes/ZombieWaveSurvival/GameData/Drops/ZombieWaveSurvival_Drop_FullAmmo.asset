@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80067881715c16149b3839ac73e2956d, type: 3}
+  m_Name: ZombieWaveSurvival_Drop_FullAmmo
+  m_EditorClassIdentifier: 
+  dropChance: 2
+  dropLiveTime: 30
+  dropOffset: {x: 0, y: 0.5, z: 0}
+  dropRendererPrefab: {fileID: 844132665006555987, guid: f7ceaa34c0358b54ca49aaada270c1cd,
+    type: 3}
+  dropSound:
+  - {fileID: 8300000, guid: a4aa7bbfa6130d9448c8f99482efef9b, type: 3}

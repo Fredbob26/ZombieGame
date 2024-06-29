@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f4d28c22dea9174a863dbe5e1651ac9, type: 3}
+  m_Name: Character 5
+  m_EditorClassIdentifier: 
+  characterName: Char No.5
+  characterCanBeSelectedByEveryone: 0
+  loadout:
+    loadoutWeapons:
+    - goesToSlot: 0
+      weaponID: 0
+      attachments: 
+    - goesToSlot: 1
+      weaponID: 4
+      attachments: 
+    - goesToSlot: 2
+      weaponID: 5
+      attachments: 
+    - goesToSlot: 3
+      weaponID: 0
+      attachments: 
+    - goesToSlot: 4
+      weaponID: 0
+      attachments: 
+    teamLoadout: []
+  playerModel:
+    information: {fileID: 11400000, guid: 7f9fc6492ab1e1f46b8d48a2ccd737d0, type: 2}
+    customization: 00000000
