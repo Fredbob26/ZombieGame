@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -26,10 +27,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b69d96091486d844f818d85a8664e6fb, type: 3}
   - {fileID: 8300000, guid: 5014ae259ad5c1840856a3cfcae18ec4, type: 3}
   damageTakenOthers:
-  - {fileID: 8300000, guid: 959d40df37d185a46ac4073147d88ac7, type: 3}
-  - {fileID: 8300000, guid: d5a43eff8448a7d49b08cec32968d0fb, type: 3}
-  - {fileID: 8300000, guid: ef6d8ab99676fa34cbd63f1add65cc5c, type: 3}
-  - {fileID: 8300000, guid: d2b5e17d64e02234b8e3c291002eacf9, type: 3}
+  - {fileID: 8300000, guid: 8af738d6c6643b345a78060c610e8e4a, type: 3}
+  - {fileID: 8300000, guid: f481927c410331149b9e8c4d790061c3, type: 3}
+  - {fileID: 8300000, guid: 2cae048cafddd6441975e58cd74908fd, type: 3}
+  - {fileID: 8300000, guid: cf72a1baf6c88af4c9498d718aa41c20, type: 3}
+  - {fileID: 8300000, guid: 3761c7acff8370e438098856fa5f7ff0, type: 3}
+  - {fileID: 8300000, guid: e02f26dfc20a9e846ac2b91825c1bc0f, type: 3}
   enemyKilled:
   - {fileID: 8300000, guid: 8df7432350b6ada4bb742e835e53e745, type: 3}
   - {fileID: 8300000, guid: c38229bdebbcaaf42ad976567cc25928, type: 3}
@@ -37,17 +40,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6852be8ff3e28fc41a2cc2b487baf509, type: 3}
   - {fileID: 8300000, guid: cb1607cd53489c243ba41a0b291898d3, type: 3}
   reloading:
-  - {fileID: 8300000, guid: c17ef0329b33da44f97ccacd015e720a, type: 3}
-  - {fileID: 8300000, guid: 7ed057b8528d6e7409b8bf7ea6db0227, type: 3}
-  - {fileID: 8300000, guid: 5becb35aa2be9804bb2c8246c2a1b89b, type: 3}
-  - {fileID: 8300000, guid: b5a6c9b199afe9146922149e901679e9, type: 3}
-  - {fileID: 8300000, guid: 95d64931a2597c041a47bc2a4b1daf30, type: 3}
+  - {fileID: 8300000, guid: 18a3a1453e2b96443833f37842710405, type: 3}
+  - {fileID: 8300000, guid: a46a9003cd4fb5e4e8574fdc1cc5316e, type: 3}
+  - {fileID: 8300000, guid: 09d74ee0d1fca8c4bbf4733e05c002e1, type: 3}
+  - {fileID: 8300000, guid: 993673d8d7de78643b22d5ce43e7fd45, type: 3}
   grenadeThrown:
   - clips:
-    - {fileID: 8300000, guid: e3dd423121f2e3646bc2a8e20b73c02b, type: 3}
-    - {fileID: 8300000, guid: 62817422f46496d46a6166a90d5ab163, type: 3}
-    - {fileID: 8300000, guid: ed50e904246e14f49802ca6f03cee0ec, type: 3}
-    - {fileID: 8300000, guid: ff0d445b7f7ad3b4993b6ef6db5e58c9, type: 3}
+    - {fileID: 8300000, guid: e2575b74072b3e747bbaba4fc6662983, type: 3}
+    - {fileID: 8300000, guid: 8fe1aeca439d8f54b9135f516e2eb744, type: 3}
+    - {fileID: 8300000, guid: c11dadac6e5102f47828511a53a5f455, type: 3}
+    - {fileID: 8300000, guid: 185fa4c04ed48344793241b9d97a2938, type: 3}
   - clips:
     - {fileID: 8300000, guid: 13728b7041f6a7646859ba9a5e1d9cbb, type: 3}
     - {fileID: 8300000, guid: 27fd73caecad3fd43af81f2444ac5c53, type: 3}
@@ -63,7 +65,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 9e00f7c1709236348ac98fe6cd63b58a, type: 3}
   deathSounds:
   - clips:
-    - {fileID: 8300000, guid: 2ce23cfd103ad554db25debc64e71b3e, type: 3}
+    - {fileID: 8300000, guid: f69f3032f908d9a4682e47b70f3295a0, type: 3}
   - clips:
     - {fileID: 8300000, guid: 63369d0f8c42bd74b9d5a70f36f5d798, type: 3}
   - clips:

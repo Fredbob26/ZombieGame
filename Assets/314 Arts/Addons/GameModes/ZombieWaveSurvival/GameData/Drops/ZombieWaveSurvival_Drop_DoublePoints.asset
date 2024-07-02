@@ -18,7 +18,7 @@ MonoBehaviour:
   dropRendererPrefab: {fileID: 7410506550088992347, guid: eda72b7878a7aaa469611d195fe85881,
     type: 3}
   dropSound:
-  - {fileID: 8300000, guid: 1a0c775507b69514182726a0406a330c, type: 3}
+  - {fileID: 8300000, guid: a495d180e26cef846bdb730fd90d1481, type: 3}
   liveTime: 30
   canExtendExisting: 1
   doublePointManagerPrefab: {fileID: 8276224945437750241, guid: 623e1c45c21d8284ea316ca44003336b,

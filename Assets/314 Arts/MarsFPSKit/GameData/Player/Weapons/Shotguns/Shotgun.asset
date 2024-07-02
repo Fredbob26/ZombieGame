@@ -84,11 +84,13 @@ MonoBehaviour:
   amountOfPellets: 12
   speedMultiplierBase: 1
   ragdollForce: 500
-  attachmentSlots:
+  attachmentSlotsSpecific:
   - slotName: Sights
-    availableAttachments:
+    availableAttachmentsSpecific:
     - {fileID: 11400000, guid: 37852efc701d37a479fff049a8dc4cf6, type: 2}
     - {fileID: 11400000, guid: 3808384ee7d12124c89a199c7e86dd07, type: 2}
+    overrideSlot: {fileID: 0}
+  attachmentSlotOverride: {fileID: 0}
   setEmptyBool: 0
   setAimingBool: 0
   setAimingProgress: 0
@@ -281,10 +283,11 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+  fireSoundWeaponIsSilenced: 0
   dryFireSound: {fileID: 8300000, guid: 2ef1f99c46da1c445a38192092d97d8b, type: 3}
   enableWalkAnimationWhileAiming: 0
   genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,
     type: 3}
   useGenericWalkAnim: 1
   useGenericRunAnim: 1
-  gameGunID: 4
+  gameGunID: 3

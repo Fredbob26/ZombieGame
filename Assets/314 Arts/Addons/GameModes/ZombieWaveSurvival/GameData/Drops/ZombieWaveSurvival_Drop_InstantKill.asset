@@ -18,4 +18,4 @@ MonoBehaviour:
   dropRendererPrefab: {fileID: 3799940614777141816, guid: 58748ae77845ce846a2ea3082d9213fa,
     type: 3}
   dropSound:
-  - {fileID: 8300000, guid: dc212d312623e7b43987ef684bd94860, type: 3}
+  - {fileID: 8300000, guid: 55f974f6961bc804fb4a1808abacf10c, type: 3}

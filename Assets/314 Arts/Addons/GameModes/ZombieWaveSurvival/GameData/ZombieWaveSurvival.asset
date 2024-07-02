@@ -34,26 +34,56 @@ MonoBehaviour:
     type: 3}
   waitTimeBeforeFirstRound: 10
   waitTimeBetweenRounds: 15
-  timeBetweenZombieSpawns: 1
+  timeBetweenZombieSpawns: 5
   maxAmountOfZombieSpawnsAtOnce: 5
   maxAmountOfZombiesAliveAtOnce: 30
   zombiePrefabs:
   - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
       type: 3}
     skins:
-    - {fileID: 5204179101202958298, guid: 498138c14ebb1314eb600f58e7e43f92, type: 3}
-    spawnAfterWave: 0
+    - {fileID: 8531495443871176744, guid: 314b234db7af58d49906c37e2b508566, type: 3}
+    spawnAfterWave: 1
     spawnUntilWave: 5
   - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
       type: 3}
     skins:
-    - {fileID: 5204179101202958298, guid: a60101c867289a541a326ec5543d8375, type: 3}
+    - {fileID: 3073601108687076445, guid: 603a2be02eb6783488a9d9570b6f19dd, type: 3}
     spawnAfterWave: 2
-    spawnUntilWave: 0
+    spawnUntilWave: 999
+  - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
+      type: 3}
+    skins:
+    - {fileID: 1863763803822594020, guid: 0eab494e6b6b4c54ea1ef02e062a7df5, type: 3}
+    spawnAfterWave: 2
+    spawnUntilWave: 999
+  - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
+      type: 3}
+    skins:
+    - {fileID: 1421919400149442521, guid: 2f1773e7cebb5d44ab33132c78b65083, type: 3}
+    spawnAfterWave: 2
+    spawnUntilWave: 999
+  - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
+      type: 3}
+    skins:
+    - {fileID: 6956155422258256090, guid: 044229f1190d905488e0ce6269d9514c, type: 3}
+    spawnAfterWave: 2
+    spawnUntilWave: 999
+  - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
+      type: 3}
+    skins:
+    - {fileID: 1389694247779218, guid: 47d83740ee3c1424c99c01a6be42ba69, type: 3}
+    spawnAfterWave: 8
+    spawnUntilWave: 13
+  - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
+      type: 3}
+    skins:
+    - {fileID: 8817034704129006124, guid: 48911cb5500edd840bd4af2d64892936, type: 3}
+    spawnAfterWave: 13
+    spawnUntilWave: 999
   localPlayerDataPrefab: {fileID: 5145529526415129744, guid: f54cec70e86ad4843b8dde0a9e4220f9,
     type: 3}
-  moneyPerHit: 20
-  moneyPerKill: 100
+  moneyPerHit: 0
+  moneyPerKill: 25
   gameOverScreenTime: 5
   allDrops:
   - {fileID: 11400000, guid: 17956b47d2d3d10468e98f634bb82ecf, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61fe718257fd80c4f82a82bbbe04cd9c, type: 3}
+  m_Name: DropRepair
+  m_EditorClassIdentifier: 
+  dropChance: 2
+  dropLiveTime: 30
+  dropOffset: {x: 0, y: 0.5, z: 0}
+  dropRendererPrefab: {fileID: 3799940614777141816, guid: 58748ae77845ce846a2ea3082d9213fa,
+    type: 3}
+  dropSound:
+  - {fileID: 8300000, guid: dc212d312623e7b43987ef684bd94860, type: 3}
