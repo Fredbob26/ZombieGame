@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameModeName: Zombie Wave Survival
   maps:
-  - {fileID: 11400000, guid: 4da0454cca8de14419199d09579a2670, type: 2}
   - {fileID: 11400000, guid: bea4effa9c4df7d45ba9109de0b3c35a, type: 2}
   coopPlayerAmount: 4
   menuPrefab: {fileID: 3708633093598800005, guid: 22a31102dcb1f3b47aabcca8cffc32b3,
