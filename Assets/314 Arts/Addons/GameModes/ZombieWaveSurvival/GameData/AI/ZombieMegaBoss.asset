@@ -19,7 +19,7 @@ MonoBehaviour:
     freezesZombieForAttackDuration: 0
   attackRotateToDistance: 5
   attackRotateSpeed: 10
-  health: 1000
+  health: 500
   navMeshRadius: 0.5
   navMeshSpeed: 0.5
   setDesiredVelocity: 0

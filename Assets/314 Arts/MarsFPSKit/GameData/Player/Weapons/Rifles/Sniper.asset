@@ -44,7 +44,7 @@ MonoBehaviour:
   RPM: 700
   bulletsPerMag: 5
   bulletsToReloadAtStart: 30
-  baseDamage: 105
+  baseDamage: 250
   range: 500
   damageDropoff:
     serializedVersion: 2
@@ -85,12 +85,14 @@ MonoBehaviour:
   amountOfPellets: 12
   speedMultiplierBase: 1
   ragdollForce: 1000
-  attachmentSlots:
+  attachmentSlotsSpecific:
   - slotName: Secondary Rail
-    availableAttachments:
+    availableAttachmentsSpecific:
     - {fileID: 11400000, guid: 37852efc701d37a479fff049a8dc4cf6, type: 2}
     - {fileID: 11400000, guid: a44030a9d6327fd48a7cc996374c0b67, type: 2}
     - {fileID: 11400000, guid: 8c379c2786201b548a22dd303c0b7572, type: 2}
+    overrideSlot: {fileID: 0}
+  attachmentSlotOverride: {fileID: 0}
   setEmptyBool: 0
   setAimingBool: 0
   setAimingProgress: 0
@@ -282,6 +284,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+  fireSoundWeaponIsSilenced: 0
   dryFireSound: {fileID: 8300000, guid: 2ef1f99c46da1c445a38192092d97d8b, type: 3}
   enableWalkAnimationWhileAiming: 0
   genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,

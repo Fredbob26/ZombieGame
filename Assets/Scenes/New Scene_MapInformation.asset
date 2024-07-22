@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049afb33f30533f4ebd9affd696426b1, type: 3}
   m_Name: New Scene_MapInformation
   m_EditorClassIdentifier: 
-  mapName: New Scene
+  mapName: Parking lot
   sceneName: New Scene
   mapPicture: {fileID: 0}
   loadingImage: {fileID: 0}

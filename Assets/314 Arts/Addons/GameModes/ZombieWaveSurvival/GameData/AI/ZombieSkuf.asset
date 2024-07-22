@@ -24,7 +24,7 @@ MonoBehaviour:
   attackRotateSpeed: 10
   health: 100
   navMeshRadius: 0.5
-  navMeshSpeed: 4
+  navMeshSpeed: 3
   setDesiredVelocity: 0
   animSetSmooth: 5
   soundSpawn:

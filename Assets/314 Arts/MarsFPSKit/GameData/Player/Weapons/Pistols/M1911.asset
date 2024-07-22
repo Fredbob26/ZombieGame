@@ -42,9 +42,9 @@ MonoBehaviour:
     lerpSpeed: 20
   fireMode: 0
   RPM: 450
-  bulletsPerMag: 7
+  bulletsPerMag: 10
   bulletsToReloadAtStart: 70
-  baseDamage: 20
+  baseDamage: 30
   range: 450
   damageDropoff:
     serializedVersion: 2
@@ -85,7 +85,12 @@ MonoBehaviour:
   amountOfPellets: 12
   speedMultiplierBase: 1
   ragdollForce: 500
+  attachmentSlotsSpecific: []
+  attachmentSlotOverride: {fileID: 0}
   setEmptyBool: 1
+  setAimingBool: 0
+  setAimingProgress: 0
+  setMovementDirection: 0
   crosshairEnabled: 1
   crosshairSizeMultiplier: 1000
   bulletsMode: 1
@@ -272,10 +277,11 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+  fireSoundWeaponIsSilenced: 0
   dryFireSound: {fileID: 8300000, guid: 2ef1f99c46da1c445a38192092d97d8b, type: 3}
   enableWalkAnimationWhileAiming: 0
   genericGunAnimatorControllerPrefab: {fileID: 1896438800841234, guid: 32d35967d844b94479b79cb464e4bea5,
     type: 3}
   useGenericWalkAnim: 1
   useGenericRunAnim: 0
-  gameGunID: 2
+  gameGunID: 4

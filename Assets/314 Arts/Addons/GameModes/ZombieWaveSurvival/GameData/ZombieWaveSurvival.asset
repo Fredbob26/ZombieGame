@@ -31,11 +31,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cb5c4072d9760c046b80538502fd88dc, type: 2}
   waveSurvivalRoundManagerPrefab: {fileID: 7009425995190397342, guid: 6d1531a0629c16a48b136b1a908a04c9,
     type: 3}
-  waitTimeBeforeFirstRound: 10
-  waitTimeBetweenRounds: 15
+  waitTimeBeforeFirstRound: 15
+  waitTimeBetweenRounds: 20
   timeBetweenZombieSpawns: 5
   maxAmountOfZombieSpawnsAtOnce: 5
-  maxAmountOfZombiesAliveAtOnce: 30
+  maxAmountOfZombiesAliveAtOnce: 40
   zombiePrefabs:
   - prefab: {fileID: 3546581080152743906, guid: 7a6c333124f7df64e93c65bcbeb6975a,
       type: 3}

@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af4ba7e82b22ace4f9152c015b63e1e1, type: 3}
   m_Name: GenericBootsOnGround
   m_EditorClassIdentifier: 
-  sprintSpeed: 7.5
-  walkSpeed: 5
+  sprintSpeed: 8
+  walkSpeed: 5.5
   crouchSpeed: 3
   airControlEnabled: 1
   airControlSprintControl: 1
   gravityMultiplier: 2.2
   jumpSpeed: 8
-  jumpMaxCount: 2
+  jumpMaxCount: 1
   jumpStaminaCost: 3
   jumpAnimations:
   - Jump
@@ -144,7 +144,7 @@ MonoBehaviour:
   fallDownTime: 0.1
   fallDownReturnSpeed: 4
   staminaSystemEnabled: 1
-  staminaDecreaseRate: 10
+  staminaDecreaseRate: 8
   staminaIncreaseRate: 30
   staminaPauseRateNotEmpty: 2
   staminaPauseRateEmpty: 5

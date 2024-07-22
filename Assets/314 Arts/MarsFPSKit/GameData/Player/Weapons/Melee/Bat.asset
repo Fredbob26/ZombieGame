@@ -42,7 +42,7 @@ MonoBehaviour:
     lerpSpeed: 20
   primaryAttack: 0
   primaryAttackSettings:
-    stabDamage: 50
+    stabDamage: 75
     stabPenetrationPower: 2
     stabReach: 2
     stabHalfExtents: {x: 0.1, y: 0.1, z: 1}
@@ -243,4 +243,4 @@ MonoBehaviour:
     type: 3}
   useGenericWalkAnim: 1
   useGenericRunAnim: 1
-  gameGunID: 8
+  gameGunID: 5

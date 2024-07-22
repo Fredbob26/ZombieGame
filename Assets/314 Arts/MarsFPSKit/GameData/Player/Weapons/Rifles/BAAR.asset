@@ -42,8 +42,8 @@ MonoBehaviour:
     lerpSpeed: 20
   fireMode: 1
   RPM: 700
-  bulletsPerMag: 30
-  bulletsToReloadAtStart: 240
+  bulletsPerMag: 45
+  bulletsToReloadAtStart: 225
   baseDamage: 43
   range: 500
   damageDropoff:
